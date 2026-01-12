@@ -1,0 +1,2 @@
+#manuscript_data
+This folder contains aggregated, participant-level data used to generate the results reported in this study.
