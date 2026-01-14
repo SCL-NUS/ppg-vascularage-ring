@@ -1,6 +1,5 @@
 # fingertip_pulses
-Individual pulse waveforms (width and amplitude normalized) used in CNN model, with age and participant ID as labels. 
 
-1) Fingertip_all_waveforms.csv : All Fingertip-waveforms extracted (which means they passed the pre-processing and signal quality checks). These are only width-normalized (into 200 samples) but pulse amplitudes are not normalized. 
-  
-3) Fingertip_waveforms_split folder : Waveforms used for the training, validation, and test sets in the CNN model. The data were split within folds according to the 10-fold cross-validation scheme described in the Methods.
+The data were split within folds according to the 10-fold cross-validation scheme described in the Methods. Each fold-specific folder contains training, validation, and test sets used in the CNN model. 
+
+Please note that,   370 waveforms were randomly selected from each sensor and used in ML analysis described in the paper. The fingertip source data (all waveforms extracted from each participant) can be accessed at: https://doi.org/10.17605/OSF.IO/7TZCG
