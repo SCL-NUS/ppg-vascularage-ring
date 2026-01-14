@@ -2,7 +2,11 @@
 
 This folder contains;
 
-- Aggregated, participant-level data used to generate the results reported in this study: Demographic_info.csv, CNN_estimates.csv, PPG_features.csv
+- Aggregated, participant-level data used to generate the results reported in this study:
+    - Demographic_info_perID.csv
+    - CNN_estimates_perID.csv
+    - PPG_features_perID.csv
+  
 - Pulse waveforms from the fingertip sensor under fingertip_pulses folder.
   
-- DataTable_CNN_number_of_allpulses.csv: Total number of extracted pulse waveforms per sensor for each participant; these represent waveforms that passed signal-quality checks.
+- Number_of_allvalidpulses_perID.csv: Total number of extracted pulse waveforms per sensor for each participant; these represent waveforms that passed signal-quality checks for     the      final 160 participants.
